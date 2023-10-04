@@ -1,0 +1,16 @@
+{
+  "name": "othello-game",
+  "version": "1.0.0",
+  "description": "A web-based Othello game with a Node.js server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0",
+    "bootstrap": "^5.2.2"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}

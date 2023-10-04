@@ -1,0 +1,31 @@
+#board {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 2px;
+}
+
+.cell {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    position: relative;
+}
+
+.white, .black {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
